@@ -1,5 +1,11 @@
 # Getting Started
 
+## Clone this repo to your local
+
+```bash
+git clone https://github.com/besaoct/school-nextjs-seo-template.git
+```
+
 ## Installation
 
 Install the project dependencies. If you encounter issues, try using the `--legacy-peer-deps` flag:
