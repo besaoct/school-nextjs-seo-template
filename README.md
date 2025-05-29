@@ -73,3 +73,7 @@ npm run start
 ## Customization
 
 To update sitemap routes or initial metadata, edit the `seo/constants.ts` file.
+
+## Demo
+
+[Click here: school-nextjs-seo-template.vercel.app](https://school-nextjs-seo-template.vercel.app)
