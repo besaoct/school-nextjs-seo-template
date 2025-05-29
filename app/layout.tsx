@@ -4,7 +4,7 @@ import {  Poppins } from "next/font/google"
 import "./globals.css"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
-import { SEO } from "@/seo/constants"
+import { BASE_URL, SEO } from "@/seo/constants"
 
 const font = Poppins({
   subsets: ["latin"],
@@ -22,8 +22,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="canonical" href="https://greenwoodacademy.edu" />
+        <link rel="canonical" href={BASE_URL} />  
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="shortcut icon" href="hero.png" type="image/x-icon" />    {/* change it according to your need */}
       </head>
       <body className={`${font.className}`} cz-shortcut-listen="true">
         <Header />
