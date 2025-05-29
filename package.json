@@ -7,8 +7,9 @@
     "generate:sitemap": "node seo/generate-sitemap.mjs",
     "preexport": "npm run generate:sitemap && npm run generate:robots",
     "dev": "next dev",
-    "build": "npm i --legacy-peer-deps && npm run preexport && next build",
+    "build": "next build",
     "start": "next start",
+    "static-build": "npm i --legacy-peer-deps && npm run preexport && next build",
     "static-start": "npx serve@latest out",
     "lint": "next lint"
   },

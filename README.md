@@ -27,7 +27,7 @@ npm run dev
 Generate a static production build:
 
 ```bash
-npm run build
+npm run static-build
 ```
 
 This command creates an `out` directory containing the production-ready static site. It also automatically generates `sitemap.xml` and `robots.txt` files based on the configuration in `seo/constants.ts`, so you do not need to create them manually.
@@ -66,9 +66,12 @@ export default nextConfig
 Then build and start the application (for production):
 
 ```bash
+npm run preexport
 npm run build
 npm run start
 ```
+
+Note: `npm run preexport` for generating sitemap.xml and robot.txt (Pre-production command)
 
 ## Customization
 
