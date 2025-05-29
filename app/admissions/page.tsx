@@ -166,11 +166,11 @@ export default function AdmissionsPage() {
                     </div>
                   </div>
                 </div>
-                <div className="mt-8">
-                  <Button size="lg" className="bg-blue-600 hover:bg-blue-700 mr-4">
+                <div className="mt-8 flex flex-wrap gap-4 w-full">
+                  <Button size="lg" className="bg-blue-600 hover:bg-blue-700 w-full  lg:w-fit">
                     Start Application
                   </Button>
-                  <Button size="lg" variant="outline">
+                  <Button size="lg" variant="outline" className="w-full lg:w-fit">
                     Download Checklist
                   </Button>
                 </div>
@@ -497,7 +497,7 @@ export default function AdmissionsPage() {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="border-white text-white hover:bg-white hover:text-blue-900"
+                  className="border-white text-blue-900 hover:bg-white hover:text-blue-900"
                 >
                   Contact Admissions
                 </Button>
