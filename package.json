@@ -9,7 +9,6 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "postinstall": "npm i --legacy-peer-deps",
     "static-build": "npm i --legacy-peer-deps && npm run preexport && next build",
     "static-start": "npx serve@latest out",
     "lint": "next lint"
