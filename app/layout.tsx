@@ -21,13 +21,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+
       <head>
         <link rel="canonical" href={BASE_URL} />  
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="shortcut icon" href="hero.png" type="image/x-icon" />    {/* change it according to your need */}
+        <link rel="shortcut icon" href="/hero.png" type="image/x-icon" /> 
+         {/* change the above icon image according to your need */}
       </head>
+
       <body className={`${font.className}`} cz-shortcut-listen="true">
-        <Header />
+        <Header/>
         <main>{children}</main>
         <Footer />
       </body>

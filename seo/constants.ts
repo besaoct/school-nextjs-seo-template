@@ -59,10 +59,10 @@ export const SEO = {
 
     twitter: {
       card: "summary_large_image",
-      site: SOCIAL_HANDLE,
+      site: BASE_URL,
+      siteName: SITE_NAME,
       creator: SOCIAL_HANDLE,
       title: APP_TITLE,
-      siteName: SITE_NAME,
       description: `Explore academic excellence at ${APP_NAME}. A nurturing environment for young minds to grow and lead.`,
       images: [
         {
@@ -87,7 +87,7 @@ export const SEO = {
       "max-snippet": -1,
     },
   },
-    generator: 'Greenwood Academy'
+    generator: APP_NAME
   } ,
 
 };
